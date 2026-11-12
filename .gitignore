@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (Keep local unless explicitly approved)
+data/
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Serialized Model Artifacts (Use GitHub Releases for large binaries)
+*.joblib
+*.pkl
+
+# Mac and editor files
+.DS_Store
+.vscode/
+
+# Testing & Logs
+.pytest_cache/
+.coverage
+*.log
+
+# Streamlit local credentials
+.streamlit/credentials.toml
